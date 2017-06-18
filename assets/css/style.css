@@ -1,0 +1,215 @@
+
+
+* {
+	box-sizing: border-box;
+}
+body {
+	background-image: url("../images/random_grey_variations.png");
+	margin: 0 auto;
+	padding: 0;
+	line-height: 150%;
+	
+	position: relative;
+
+}
+
+/*#header {
+	width: 100%;
+	background-color: white;
+	position: fixed;
+	padding: 20px;
+	top: 0px;
+}*/
+
+.header::after {
+	clear: both;
+}
+
+.header {
+	width: 100%;
+	background-color: white;
+	overflow: hidden;
+	top: 0px;
+}
+
+.links {
+	width: 200px;
+	float: right;
+	color: #777777;
+	margin-top: 50px;
+}
+
+.imgur {
+	float: left;
+	margin-right: 10px;
+}
+.name {
+	background-color:#4aaaa5;
+	padding: 10px;
+	color: white;
+	width: 200px;
+	float: left;
+	margin-left: 100px;
+	text-align: center;
+}
+h1 {
+	color: white;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	
+}
+
+.aboutme::after {
+	clear: both;
+}
+
+.aboutme {
+	width: 650px;
+	background-color: white;
+	float: left;
+	margin-left: 60px;
+	border: solid 1px grey;
+	margin-top: 100px;
+	margin-right: 40px;
+}
+h2 {
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	margin-left: 20px;
+}
+
+.mainbody {
+	margin: 15px;
+
+}
+.connectwithme {
+	
+	background-color: white;
+	float: left;
+	margin: 0;
+	border: solid 1px grey;
+	margin-top: 100px;
+}
+
+.connectwithme::after {
+	clear: both;
+}
+.sidebar {
+	margin: 10px;
+}
+
+h3 {
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+h4 {
+	background-color: #4aaaa5;
+	color: white;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+
+}
+
+}
+p {
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+form {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	margin: 20px;
+	color: #777777;
+}
+
+h6 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #777777;
+	text-align: center;
+}
+
+.footer::after {
+	clear: both;
+}
+
+.footer {
+	background-color: darkgrey;
+	text-align: center;
+	width: 100%;
+	border-top: solid 6px  #4aaaa5;
+	position: absolute;
+	margin-top: 100%;
+}
+a {
+	color: #777777;
+}
+input {
+	width: 100%;
+}
+.submit {
+	background-color: #4aaaa5;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+	margin-top: 20px;
+	width: 15%;
+	border: none;
+	}
+	.message {
+		padding: 45px;
+	}
+
+textarea {
+	width: 100%;
+}
+
+	/* 980-px*/
+@media screen and (max-width: 980px) {
+		.header{
+			width: 100%;
+		}
+		.aboutme {
+			width: 40%;
+		}
+		.connectwithme {
+			width: 20%;
+		}
+		.footer {
+			width: 100%;
+		}
+}
+
+	/*768px*/
+
+@media screen and (max-width: 768px) {
+	.header {
+		width: 100%;
+	}
+	.aboutme {
+		width: 90%;
+		margin-left: 40px;
+	}
+	.connectwithme {
+		width: 90%;
+		margin-left: 35px;
+	}
+	.footer {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.header {
+		width: 100%;
+	}
+	.aboutme {
+		width: 95%;
+		margin-left: 13px;
+	}
+	.imgur {
+		width: 100%;
+	}
+	.connectwithme {
+		width: 95%;
+		margin-left: 13px;
+	}
+}
