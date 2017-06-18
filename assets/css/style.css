@@ -134,7 +134,7 @@ h6 {
 	text-align: center;
 	width: 100%;
 	border-top: solid 6px  #4aaaa5;
-	position: absolute;
+	position: ;
 	margin-top: 100%;
 }
 a {
@@ -197,6 +197,7 @@ textarea {
 	}
 }
 
+	/*640*/
 @media screen and (max-width: 640px) {
 	.header {
 		width: 100%;
@@ -211,5 +212,21 @@ textarea {
 	.connectwithme {
 		width: 95%;
 		margin-left: 13px;
+	}
+	.links {
+		width: 100%;
+		text-align: center;
+		margin-top: 25px;
+		margin-bottom: 25px;
+		font-size: 22px;
+	}
+	.name {
+		width: 100%;
+		margin: 0 0 0 0;
+		padding-top: 20px;
+	}
+	a {
+		margin: 50px;
+
 	}
 }
