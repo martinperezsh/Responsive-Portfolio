@@ -135,9 +135,10 @@ h6 {
 	text-align: center;
 	width: 100%;
 	border-top: solid 6px  #4aaaa5;
-	position: ;
 	margin-top: 100%;
 	clear: both;
+	bottom: 0;
+
 }
 a {
 	color: #777777;
@@ -164,6 +165,48 @@ textarea {
 	width: 100%;
 }
 
+/*Portfolio page*/
+.work {
+  position: relative;
+  float: left;
+  width: 274px;
+  margin: 20px 0 25px;
+  overflow: auto;
+}
+
+.work:nth-child(even) {
+  margin-right: 40px;
+  margin-left: 30px;
+}
+
+.work img {
+  width: 100%;
+  border: 0 none;
+  opacity: 0.8;
+}
+
+.work h4 {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 0;
+  font-weight: 300;
+  line-height: 30px;
+  color: #fff;
+  text-align: center;
+  background: #4aaaa5;
+  border-bottom: 0;
+}
+
+.auth-image {
+  float: left;
+  width: 200px;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
+}
+
 	/* 980-px*/
 @media screen and (max-width: 980px) {
 		.header{
@@ -171,12 +214,19 @@ textarea {
 		}
 		.aboutme {
 			width: 40%;
+			margin-bottom: 40px;
 		}
 		.connectwithme {
 			width: 20%;
 		}
 		.footer {
 			width: 100%;
+		}
+		.work {
+			margin-left: 30px;
+		}
+		.submit {
+			width: 30%;
 		}
 }
 
@@ -193,13 +243,16 @@ textarea {
 	.connectwithme {
 		width: 90%;
 		margin-left: 35px;
+		margin-bottom: 30px;
 	}
 	.footer {
 		width: 100%;
 	}
+	.work {
+    margin-left: 10px;
+	}
 }
 
-	/*640*/
 @media screen and (max-width: 640px) {
 	.header {
 		width: 100%;
@@ -215,20 +268,18 @@ textarea {
 		width: 95%;
 		margin-left: 13px;
 	}
-	.links {
-		width: 100%;
-		text-align: center;
-		margin-top: 25px;
-		margin-bottom: 25px;
-		font-size: 22px;
+	.work {
+		width: 90%;	
+		margin-left: 28px;
 	}
 	.name {
 		width: 100%;
-		margin: 0 0 0 0;
-		padding-top: 20px;
+		margin-left: 0px;
 	}
-	a {
-		margin: 50px;
-
+	.links {
+		text-align: center;
+		width: 100%;
+		font-size: 40px;
+		margin-bottom: 20px;
 	}
 }
